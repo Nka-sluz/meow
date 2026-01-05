@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	bind := flag.String("bind", "0.0.0.0", "bind to")
+	bind := flag.String("bind", "localhost", "bind to")
 	port := flag.Int("port", 9000, "port number")
 	flag.Parse()
 	http.HandleFunc("/canary", func(w http.ResponseWriter, r *http.Request) {

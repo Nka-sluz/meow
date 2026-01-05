@@ -29,7 +29,7 @@ type ConcurrentConfig struct {
 var cfg ConcurrentConfig
 
 func main() {
-	addr := flag.String("addr", "0.0.0.0", "listen to address")
+	addr := flag.String("addr", "localhost", "listen to address")
 	port := flag.Uint("port", 8000, "listen on port")
 	file := flag.String("file", "config.csv", "CSV file to store the configuration")
 	flag.Parse()

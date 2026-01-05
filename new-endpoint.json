@@ -1,0 +1,8 @@
+{
+    "identifier": "m114",
+    "url": "https://infmod.gitlab.io/m114/",
+    "method": "GET",
+    "status_online": 200,
+    "frequency": "1m0s",
+    "fail_after": 3
+}
